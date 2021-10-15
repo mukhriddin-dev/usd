@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.card{
+  width: 400px;
+  height: 380px;
+  background: teal;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5% auto;
+  
+}
+
+
+
+
+
+#usd , #uzs , #rub{
+  width: 350px;
+  height: 50px;
+  padding-left:20px;
+  outline: none;
+  font-size: 18px;
+  color: red;
+  border-radius: 6px;
+}
+
+.ok{
+  color: white;
+  font-size:25px;
+}
